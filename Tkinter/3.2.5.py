@@ -23,7 +23,7 @@ canvas.pack()
 #図形図形表示+に名前をつける
 canvas.create_oval(x_pos, y_pos, x_pos+SIZE, y_pos+SIZE, fill="#0fffff", tag="oval")
 #canvas.create_rectangle(x_pos, y_pos, x_pos+SIZE, y_pos+SIZE, fill="#0fffff", tag="oval")
-canvas.create_line(10, 150, 100, 150, arrow=tkinter.LAST, tag="oval")
+#canvas.create_line(10, 150, 100, 150, arrow=tkinter.LAST, tag="oval")
 
 #図形移動
 def move():
